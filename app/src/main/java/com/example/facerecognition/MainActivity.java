@@ -171,15 +171,12 @@ public class MainActivity extends AppCompatActivity {
                                 loadphoto();
                                 break;
                         }
-
                     }
                 });
-
 
                 builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-
                     }
                 });
                 builder.setNegativeButton("Back", null);
@@ -210,7 +207,6 @@ public class MainActivity extends AppCompatActivity {
         add_face.setOnClickListener((new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 addFace();
             }
         }));
@@ -332,7 +328,6 @@ public class MainActivity extends AppCompatActivity {
                     names[i]=entry.getKey();
                     checkedItems[i]=false;
                     i=i+1;
-
                 }
 
                 builder.setMultiChoiceItems(names, checkedItems, new DialogInterface.OnMultiChoiceClickListener() {
@@ -341,7 +336,6 @@ public class MainActivity extends AppCompatActivity {
                         // user checked or unchecked a box
                         //Toast.makeText(MainActivity.this, names[which], Toast.LENGTH_SHORT).show();
                        checkedItems[which]=isChecked;
-
                     }
                 });
 
@@ -358,7 +352,6 @@ public class MainActivity extends AppCompatActivity {
                                 Toast.makeText(MainActivity.this, names[i], Toast.LENGTH_SHORT).show();
                                 registered.remove(names[i]);
                             }
-
                         }
                 Toast.makeText(context, "Recognitions Deleted", Toast.LENGTH_SHORT).show();
             }
