@@ -1,5 +1,5 @@
 # Student-Detect-with-Face-Net-Tflite
-Face recognition with tensorflow lite for University of Syiah Kuala student detection.
+Face recognition with tensorflow lite for University of Syiah Kuala student detection apps.
 
 at above you can see screenshoot this aplications:
 
@@ -30,3 +30,5 @@ at above you can see screenshoot this aplications:
     <td><img src="https://user-images.githubusercontent.com/49058895/121900837-1054c200-cd50-11eb-9b43-e27e44931fda.jpeg" width=270 height=550></td>
   </tr>
  </table>
+ 
+ #hactoberfest2021
